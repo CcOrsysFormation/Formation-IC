@@ -44,7 +44,7 @@ public class CategoryDaoTestCase {
 	public void tearDown() throws Exception {
 		System.out.println("Libé©ration des resources");
 		categoryDao = null;
-		connection.close();
+		//connection.close();
 		connection = null;
 	}
 

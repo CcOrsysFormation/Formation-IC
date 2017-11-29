@@ -51,7 +51,19 @@
 	    <version>7.0</version>
 	    <scope>provided</scope>
 	</dependency>	
-  	
+  	<dependency>
+	    <groupId>httpunit</groupId>
+	    <artifactId>httpunit</artifactId>
+	    <version>1.7</version>
+	    <scope>test</scope>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/rhino/js -->
+	<dependency>
+	    <groupId>rhino</groupId>
+	    <artifactId>js</artifactId>
+	    <version>1.7R2</version>
+	     <scope>test</scope>
+	</dependency>
   	
   </dependencies>
 </project>
