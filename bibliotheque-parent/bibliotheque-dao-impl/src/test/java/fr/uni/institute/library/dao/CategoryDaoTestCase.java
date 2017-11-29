@@ -26,7 +26,7 @@ public class CategoryDaoTestCase {
 	private static Category categoryAttendu;
 	
 	@Rule
-	public Timeout timeout = new Timeout(1000, TimeUnit.MILLISECONDS);
+	public Timeout timeout = new Timeout(10000, TimeUnit.MILLISECONDS);
 	
 	@Before
 	public void setUp() throws Exception {
